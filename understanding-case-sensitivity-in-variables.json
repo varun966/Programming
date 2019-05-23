@@ -1,1 +1,5 @@
 {"index.js":"// Declarations\nvar studlyCapVar;\nvar properCamelCase;\nvar titleCaseOver;\n\n// Assignments\nstudlyCapVar = 10;\nproperCamelCase = \"A String\";\ntitleCaseOver = 9000;"}
+
+//In JavaScript variable and function names are case sensitive, capitailization matters
+
+//Best Practice camelCase, multi-word variable names have first word in lower case and the first letter of each subsequent word is capitalized.   
