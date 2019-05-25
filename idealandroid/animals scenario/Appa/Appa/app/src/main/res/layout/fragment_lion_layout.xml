@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/left_recycler"
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/left_reset"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/right_recycler"
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/right_reset"/>
+
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:src="@drawable/clip_source"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/left_recycler"
+        android:layout_toStartOf="@id/right_recycler"
+        android:layout_toLeftOf="@id/right_recycler"
+        android:layout_toRightOf="@id/right_recycler"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image1"
+        android:src="@drawable/clip_source"
+        android:layout_toEndOf="@id/left_recycler"
+        android:layout_toStartOf="@id/right_recycler"
+        android:layout_toLeftOf="@id/right_recycler"
+        android:layout_toRightOf="@id/right_recycler"
+        android:layout_centerInParent="true"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_action_done"
+        android:tint="@color/white"
+        app:backgroundTint="#26a65b" />
+
+    <Button
+        android:id="@+id/left_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:text="Reset"
+        android:textAllCaps="false"
+        android:layout_margin="16dp"
+        android:drawableLeft="@drawable/ic_action_clear"
+        android:drawableStart="@drawable/ic_action_clear"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/reset_bg"/>
+
+    <Button
+        android:id="@+id/right_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:text="Reset"
+        android:layout_margin="16dp"
+        android:drawableLeft="@drawable/ic_action_clear"
+        android:drawableStart="@drawable/ic_action_clear"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/reset_bg"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false"/>
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:padding="5dp"
+    tools:context="volunteer.softwares.com.appa.MainActivity">
+
+    <ImageView
+        app:layout_marginStartPercent="20%"
+        android:id="@+id/image"
+        app:layout_widthPercent="40%"
+        app:layout_heightPercent="30%"
+        android:src="@drawable/clip_source"
+        android:visibility="gone"
+         />
+    <ImageView
+        android:visibility="gone"
+        app:layout_marginStartPercent="20%"
+        app:layout_widthPercent="40%"
+        app:layout_heightPercent="30%"
+        android:id="@+id/image1"
+        android:src="@drawable/clip_source"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/recycler_drawable" />
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/arrow_right_thick"
+        android:tint="@color/white"
+        app:backgroundTint="@color/colorPrimary" />
+
+
+</android.support.percent.PercentRelativeLayout>
