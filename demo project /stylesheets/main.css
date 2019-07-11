@@ -1,7 +1,15 @@
  body{
-     background: red;
+     background:white;
+     text-align: center
  }
 
- h1{
-     background: blue;
- }
+h1{
+
+    color: blue;
+}
+
+div{
+    display: inline-block ; 
+    width: 400px;
+    background-color: grey; 
+}
