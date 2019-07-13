@@ -86,6 +86,7 @@ public class MyClass {
 		System.out.println(z);
 		*/
 		
+		/*
 		int x=-6;
 		int y=9;
 		
@@ -94,9 +95,51 @@ public class MyClass {
 		System.out.println(Math.sqrt(y));
 		System.out.println(Math.abs(x));
 		System.out.println(Math.random());
+		*/
+		
+	/*boolean Iamthin=true;
+	boolean Iamfat=false;
+	
+	System.out.println(Iamthin);
+	System.out.println(Iamfat);
+	
+	int x = 9;
+	int y=8;
+	
+	System.out.println(x>y);
+		
+	*/
+	/*
+		int x=1;
+		int y=10;
+		int z=2;
+		
+		if(x>y)
+		{
+			System.out.println("x is greater: "+x);
+		}
+		else if(y>z)
+			System.out.println("y is greater: " +y);
+		else 
+		
+			System.out.println("z is greater: "+z);
+		
+	*/
+		
+		int x=2;
 		
 		
-		
+		switch(x)
+		{
+		case 1:x=1;
+		System.out.println("it is saturday");
+		break;
+		case 2:x=2;
+		System.out.println("it is sunday");
+		break;
+		default:
+			System.out.println("it is weekday");
+		}
 		
 		
 		
