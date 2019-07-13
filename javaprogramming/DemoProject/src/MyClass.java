@@ -39,6 +39,7 @@ public class MyClass {
 		char gender='M';
 		String race="Asain";
 		*/
+		/*
 		int myInt=9;
 		double myDouble = myInt;
 		System.out.println("mydouble value:"+myDouble);
@@ -73,9 +74,61 @@ public class MyClass {
 		else
 			System.out.println("y is bigger");
 		
+		
 		 String s = "java";
 		 String s1= "That's alright";
+		 int x=7;
 		 System.out.println(s1.length());
+		s1.toUpperCase();
+		System.out.println(s1.toUpperCase());
+		System.out.println(s1.indexOf("right"));
+		String z= 6 +s1;
+		System.out.println(z);
+		*/
+		
+		int x=-6;
+		int y=9;
+		
+		System.out.println(Math.max(x, y));
+		System.out.println(Math.min(x, y));
+		System.out.println(Math.sqrt(y));
+		System.out.println(Math.abs(x));
+		System.out.println(Math.random());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 	}
 
