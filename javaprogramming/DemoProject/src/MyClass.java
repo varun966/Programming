@@ -9,7 +9,7 @@ public class MyClass {
 		/* 
 		 Multi-Line Comments 
 		 */
-		
+		/*
 		String firstName="sai varun";
 		String lastName= "tangalla";
 		String fullname= firstName +" " +lastName;
@@ -30,6 +30,52 @@ public class MyClass {
 		short myNum2=1000;
 		System.out.println(myNum2);
 		int myNum3=100000;
+		long myNum4=1500L;
+		System.out.println(myNum4);
+		float myNum5=1.5F;
+		System.out.println(myNum5);
+		double myNum6=1.5;
+		System.out.println(myNum6);
+		char gender='M';
+		String race="Asain";
+		*/
+		int myInt=9;
+		double myDouble = myInt;
+		System.out.println("mydouble value:"+myDouble);
+		
+		int myInt2=9;
+		double myDouble2=(int)myInt2;
+		System.out.println("double2 value:"+myDouble2);
+
+		double myDouble3=9.85;
+		int myInt3= (int)myDouble3;		
+		System.out.println(myInt3);
+		
+		int x= 15;
+		int y= 5;
+		double z= x+y;
+		System.out.println(z);
+		double z1=x-y;
+		System.out.println(z1);
+		double z2=x*y;
+		System.out.println(z2);
+		double z3=x/y;
+		System.out.println(z3);
+		double z4=x%y;
+		System.out.println(z4);
+		x++;
+		System.out.println(x);
+		x--;
+		System.out.println(x);
+		if(x>y) {
+			System.out.println("x is bigger");
+		}
+		else
+			System.out.println("y is bigger");
+		
+		 String s = "java";
+		 String s1= "That's alright";
+		 System.out.println(s1.length());
 		
 	}
 
