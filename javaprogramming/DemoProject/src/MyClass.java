@@ -126,6 +126,7 @@ public class MyClass {
 		
 	*/
 		
+		/*
 		int x=2;
 		
 		
@@ -140,6 +141,69 @@ public class MyClass {
 		default:
 			System.out.println("it is weekday");
 		}
+		 
+		int i=0;
+		while(i<5)
+		{
+			System.out.println("value of i:"+i);
+			i++;
+		}
+		
+		*/
+		/*
+		int i=0;
+		do {
+			
+			System.out.println(i);
+			i++;
+		}
+		while(i<5);
+		*/
+		
+		
+		//int i=0;	
+		
+		/*for(int i=0;i<5;i++)
+		{
+			System.out.println(i);
+		}
+		*/
+
+		
+		int a[]= {2,3,5};
+		String[] cars= {"mazda","volvo","bmw"};
+		for(String i:cars) {
+			System.out.println(i);
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 		
 		
 		
