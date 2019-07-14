@@ -1,4 +1,4 @@
-
+ 
 public class SampleClass {
 
 	public static void main(String[] args) {
@@ -19,11 +19,11 @@ public class SampleClass {
 		System.out.println(array.length);
 		
 		//Access an array
-		*/
+		
 		int i;
 		String[] cars= {"bmw","volvo","mazda","subaru","cadilac"};
 		
-		/*
+		
 		for(String i:cars){
 			
 			System.out.println(i);
@@ -79,74 +79,8 @@ public class SampleClass {
 	}
 	
 	*/
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+	
+		System.out.println("varun");		
 	}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		 
-	
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-
-	
 
 }
