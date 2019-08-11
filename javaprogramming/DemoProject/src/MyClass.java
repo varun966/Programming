@@ -215,26 +215,7 @@ public class MyClass {
 		
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+			
 		
 		
 	}
